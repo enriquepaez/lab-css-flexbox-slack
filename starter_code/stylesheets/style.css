@@ -8,3 +8,155 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    max-width: 80px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+}
+
+.buscador ul li {
+    display: flex;
+    align-items: center;
+}
+
+.buscador img, button {
+    background-color: #540B51;
+    border: none;
+}
+
+.try {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.try a {
+    color: #540B51;
+}
+
+header {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+}
+
+.great-teamwork {
+    display: flex;
+    flex-direction: column;
+}
+
+.great-teamwork {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background-singup.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding-left: 50px;
+}
+
+.great-teamwork h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.great-teamwork p {
+    color: white;
+    font-size: 1.4rem;
+    padding-right: 80px;;
+}
+
+.great-teamwork p span{
+    color: #ECB12F;
+}
+
+.image-big {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    max-height: auto;
+}
+
+.image-big img {
+    padding: 140px 0;
+    max-width: 500px;
+}
+
+.buttons-sign button {
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.sign-email {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.sign-google {
+    background-color: #4285F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-google span {
+    color: white;
+    width: 100%;
+}
+
+.sign-google img {
+    background-color: white;
+    padding: 5px;
+    max-width: 20px;
+}
+
+@media ((width > 780px) and (width < 1024px)) {
+
+    .menu-button {
+        display: none;
+    }
+}
+
+@media (width < 780px) {
+
+}
